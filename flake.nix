@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Unlicense
 {
   inputs = {
-    # nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     systems.url = "github:nix-systems/default";
   };
 
@@ -21,6 +21,7 @@
 
             nodePackages.typescript
             nodePackages.typescript-language-server
+            tailwindcss-language-server
           ];
         };
       });
