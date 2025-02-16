@@ -16,6 +16,7 @@
         default = pkgs.mkShell {
           buildInputs = with pkgs; [
             nodejs
+            openssl
             # Comment out one of these to use an alternative package manager.
             pnpm
 
